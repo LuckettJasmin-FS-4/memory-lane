@@ -25,6 +25,13 @@ const posts = [
       "What I learned about static websites, GitHub Actions, deployment workflows, and turning local code into a live website.",
     href: "/posts/nextjs-github-pages",
   },
+  {
+    title: "Building My First CRUD API",
+    category: "Web Development",
+    excerpt:
+      "What I learned while building a CRUD API with Node.js, Express, MongoDB, and Mongoose.",
+    href: "/posts/building-a-crud-api",
+  },
 ];
 
 export default function Home() {
