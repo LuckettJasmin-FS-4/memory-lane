@@ -85,10 +85,10 @@ export default function BuildingCrudApiPost() {
           </Link>
 
           <Link
-            href="/"
+            href="/posts/securing-an-api"
             className="rounded-full bg-purple-500 px-6 py-3 font-semibold transition hover:bg-purple-400"
           >
-            All Posts
+            Next Post →
           </Link>
         </div>
       </article>

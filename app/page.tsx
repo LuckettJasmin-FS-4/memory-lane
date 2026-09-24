@@ -32,6 +32,13 @@ const posts = [
       "What I learned while building a CRUD API with Node.js, Express, MongoDB, and Mongoose.",
     href: "/posts/building-a-crud-api",
   },
+  {
+    title: "Securing an API",
+    category: "Web Development",
+    excerpt:
+      "What I learned about protecting APIs, managing sensitive information, authentication, authorization, and validating application data.",
+    href: "/posts/securing-an-api",
+  },
 ];
 
 export default function Home() {

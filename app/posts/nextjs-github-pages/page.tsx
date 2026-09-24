@@ -62,20 +62,20 @@ export default function NextGitHubPagesPost() {
         </div>
 
         <div className="mt-16 flex flex-wrap items-center justify-between gap-4 border-t border-white/10 pt-8">
-          <Link
-            href="/posts/react-node-full-stack"
-            className="font-semibold text-purple-300 hover:text-purple-200"
-          >
-            ← Previous Post
-          </Link>
+  <Link
+    href="/posts/react-node-full-stack"
+    className="font-semibold text-purple-300 hover:text-purple-200"
+  >
+    ← Previous Post
+  </Link>
 
-          <Link
-            href="/"
-            className="rounded-full bg-purple-500 px-6 py-3 font-semibold transition hover:bg-purple-400"
-          >
-            Back to All Posts
-          </Link>
-        </div>
+  <Link
+    href="/posts/building-a-crud-api"
+    className="rounded-full bg-purple-500 px-6 py-3 font-semibold transition hover:bg-purple-400"
+  >
+    Next Post →
+  </Link>
+</div>
       </article>
     </main>
   );
