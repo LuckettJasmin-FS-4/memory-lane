@@ -86,17 +86,17 @@ export default function SecuringApiPost() {
 
         <div className="mt-16 flex items-center justify-between gap-4 border-t border-white/10 pt-8">
   <Link
-    href="/posts/securing-an-api"
+    href="/posts/building-a-crud-api"
     className="font-semibold text-purple-300 hover:text-purple-200"
   >
     ← Previous Post
   </Link>
 
   <Link
-    href="/"
+    href="/posts/password-hashing"
     className="rounded-full bg-purple-500 px-6 py-3 font-semibold text-white transition hover:bg-purple-400"
   >
-    All Posts
+    Next Post →
   </Link>
 </div>
       </article>
