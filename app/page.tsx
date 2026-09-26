@@ -39,6 +39,13 @@ const posts = [
       "What I learned about protecting APIs, managing sensitive information, authentication, authorization, and validating application data.",
     href: "/posts/securing-an-api",
   },
+  {
+    title: "Password Hashing: Protecting User Passwords",
+    category: "Web Development",
+    excerpt:
+      "What I learned about password hashing, salts, protecting user credentials, and securely storing passwords in web applications.",
+    href: "/posts/password-hashing",
+  },
 ];
 
 export default function Home() {
